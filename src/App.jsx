@@ -235,7 +235,7 @@ export default function App() {
                     <input
                       type="text"
                       required
-                      placeholder="Ej. Marlon"
+                      placeholder="Ej. Pedro"
                       value={nombre}
                       onChange={(e) => setNombre(e.target.value)}
                       className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-indigo-500 transition outline-none text-slate-800"
@@ -248,7 +248,7 @@ export default function App() {
                     <input
                       type="text"
                       required
-                      placeholder="Ej. García"
+                      placeholder="Ej. Perez"
                       value={apellido}
                       onChange={(e) => setApellido(e.target.value)}
                       className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-indigo-500 transition outline-none text-slate-800"
